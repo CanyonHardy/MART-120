@@ -1,0 +1,17 @@
+Reflection paper
+
+Hello! Glad to be in the first week of class. I am getting a bit nervous looking ahead, especially because 
+of the command line interface. The desktop visuals are a lot more preferred to me, so I am definetly more 
+a fan of the graphical interface. I am a lot more comfortable moving, editing, and creating files and folders
+in the graphic interface over the command line. 
+
+Another few reasons why the command line scares me is because I worry I wont be able to remember all of the 
+shortcuts that are needed. I am also just.. not good at spelling, so Im worried thats going to interfere with 
+my code in the future..
+
+I am looking froward to working with Github, and Git. I have heard of these apps before and am fairly certain 
+I have to use them in other classes in my Media arts Major. 
+
+I hope moving forward the command line interface helps me out, I have skimmed throught the Unix mage guide and 
+I am near positive it will help me navigate this scary new world. However its new and scary, i am really happy 
+to finally get to understand more about whats going on with my computer.
