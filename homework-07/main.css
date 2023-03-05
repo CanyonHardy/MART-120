@@ -1,0 +1,41 @@
+
+body{
+    background-color:mistyrose;
+    background-image: url(images/nobeanie\ flag.PNG); background-blend-mode:inherit;
+}
+
+
+.content{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.title
+{
+    font-family:cursive;
+    font-size: 42px;
+    color:black;
+}
+
+
+#home{
+    color:lavender
+}
+
+#about{
+    color:peachpuff
+}
+
+#contact{
+    color:lightblue
+}
+
+
+a:hover{
+    text-decoration: underline;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
