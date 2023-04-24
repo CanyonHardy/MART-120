@@ -37,7 +37,7 @@ function setup()
     createCanvas(500,600);
   
 }
-for (var i = 0; i < 50; i++) {
+for (var i = 0; i < 100; i++) {
     shapeXSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
     shapeYSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
     shapeXs[i] = getRandomNumber(500);
@@ -225,16 +225,18 @@ function draw()
    
 background(300,203,190);
 stroke(0);
-fill(13, 145, 14);
-// draw the shape
 
+fill(13, 145, 14);
         for (var i = 0; i < shapeXs.length; i++) {
 
-            circle(shapeXs[i], shapeYs[i], myDiameters[i]);
+            circle(shapeXs[i], shapeYs[i], diameters[i]);
             shapeXSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
             shapeYSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
+
+
             shapeXs[i] += shapeXSpeeds[i];
             shapeYs[i] += shapeYSpeeds[i];
+
             if (shapeXs[i] > width) {
                 shapeXs[i] = 0;
             }
