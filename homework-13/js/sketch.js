@@ -35,15 +35,14 @@ var mouseShapeY;
 function setup()
 {
     createCanvas(500,600);
-    for (var i = 0; i < 50; i++) {
-        shapeXSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
-        shapeYSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
-        shapeXs[i] = getRandomNumber(500);
-        shapeYs[i] = getRandomNumber(600);
-        diameters[i] = getRandomNumber(30);
-    }
-    createcharacter(200, 500);
- 
+  
+}
+for (var i = 0; i < 50; i++) {
+    shapeXSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
+    shapeYSpeeds[i] = Math.floor(Math.random() * (Math.floor(Math.random() * 5)) + 1);
+    shapeXs[i] = getRandomNumber(500);
+    shapeYs[i] = getRandomNumber(600);
+    diameters[i] = getRandomNumber(30);
 }
 
 
