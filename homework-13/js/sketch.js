@@ -35,6 +35,22 @@ var mouseShapeY;
 function setup()
 {
     createCanvas(500,600);
+    shapeXs[0] = 50;
+    shapeYs [0] = 50;
+    diameters[0] =25;
+    shapeXs[1] = 150;
+    shapeYs [1] = 150;
+    diameters[1] = 125;
+    shapeXs[2] = 30;
+    shapeYs [2] = 10;
+    diameters[2] = 5;
+    shapeXs[3] = 0;
+    shapeYs [3] = 60;
+    diameters[3] = 45;
+    shapeXs[4] = 10;
+    shapeYs [4] = 190;
+    diameters[4] = 75;
+    
   
 }
 for (var i = 0; i < 100; i++) {
