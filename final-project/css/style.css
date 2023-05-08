@@ -1,0 +1,255 @@
+header {
+    position: absolute;
+    margin: 30px 0 0 10px;
+    width:10cm;
+    height:10cm;
+    top: 0px;
+    padding:10px;
+}
+.menu-item-dropdown {
+    
+    width:100px;
+    height: 200px;
+    text-decoration: none;
+    font-family: cool;
+    font-size: 35px;
+   position: fixed;
+   margin: .5cm 0 0 1cm;
+}
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display:none;
+    position: fixed;
+    margin: 0cm 1 0 1cm;
+    z-index: 1;
+background-color: none;
+background-image: none;
+}
+
+.menu-item-dropdown:hover .dropdown-content {
+    display: block;
+    width:100px;
+    height:200px;
+}
+.dropdown-item {
+    background-image: url(../images/small\ glitch.PNG);
+    width:200px;
+    height: 40px;
+    position: fixed;
+   margin: 1.7cm 0cm 0cm .1cm;
+    text-align: center;
+    border-radius: 10px; 
+    font-family: casual;
+}
+.dropdown-item a {
+    color:#160627;
+    text-decoration: none;
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color:#083027;
+   background-image: url(../images/small\ glitch\ 1.png);
+
+}
+.dropdown-item1 {
+    background-image: url(../images/small\ glitch.PNG);
+    width:200px;
+    height: 40px;
+    position: fixed;
+    margin: -.7cm 0cm 0cm .1cm;
+    text-align: center;
+    border-radius: 10px;  
+    font-family: casual; 
+}
+.dropdown-item1 a {
+    color:#160627;
+    text-decoration: none;
+}
+.dropdown-item1:hover, .dropdown-item1:hover a {
+    color:#083027;
+    background-image: url(../images/small\ glitch\ 1.png);
+    }
+.dropdown-item2 {
+    background-image: url(../images/small\ glitch.PNG);
+    width:240px;
+    height: 40px;
+    position: absolute;
+   margin: .5cm 0cm 0cm .1cm;
+    text-align: center;
+    border-radius: 10px;
+    font-family: casual;
+}
+.dropdown-item2 a {
+    color:#160627;
+    text-decoration: none;
+}
+.dropdown-item2:hover, .dropdown-item2:hover a {
+    color:#083027;
+    background-image: url(../images/small\ glitch\ 1.png);
+    }
+
+    .open {
+        background-image: url(../images/glitch\ 8.PNG);
+        padding: 10px;
+    }
+    .intro {
+        width:1100px;
+        height:350px;
+        padding: 10px;
+        background-image: url(../images/glitch\ 12.png);
+        text-align:inherit;
+        border-radius: 10px;
+    }
+    .beginning h1{
+background-image: url(../images/glitch\ 8.PNG);
+    }
+    .hw1{
+    background-image: url(../images/glitch\ 15.png);
+    padding:10px;
+    width:1100px;
+    border-radius: 20px;
+    color:rgb(167, 230, 235);
+    letter-spacing: 6px;
+    font-weight: lighter;
+    }
+    .hw2{
+        background-image: url(../images/glitch\ 15.png);
+    padding:10px;
+    width:1100px;
+    border-radius: 20px;
+    color:rgb(229, 211, 252);
+    letter-spacing: 6px;
+    font-weight: lighter;
+    }
+    .project h3{
+        color:#160627;
+        background-image: url(../images/small\ glitch.PNG);
+        width:330px;
+        padding:10px;
+        border-radius: 10px;
+    }
+    .hw3{
+        background-image: url(../images/glitch\ 15.png);
+    padding:10px;
+    width:1100px;
+    border-radius: 20px;
+    color:rgb(233, 230, 192);
+    letter-spacing: 6px;
+    font-weight: lighter;
+    }
+    .hw4{
+        background-image: url(../images/glitch\ 15.png);
+    padding:10px;
+    width:1100px;
+    border-radius: 20px;
+    color:rgb(199, 233, 192);
+    letter-spacing: 6px;
+    font-weight: lighter;
+    }
+    .hw5{
+        background-image: url(../images/glitch\ 15.png);
+        padding:10px;
+        width:1100px;
+        border-radius: 20px;
+        color:rgb(197, 221, 166);
+        letter-spacing: 6px;
+        font-weight: lighter;
+    }
+    .hw6{
+        background-image: url(../images/glitch\ 15.png);
+        padding:10px;
+        width:1100px;
+        border-radius: 20px;
+        color:rgb(230, 173, 126);
+        letter-spacing: 6px;
+        font-weight: lighter;
+    }
+    .hw7{
+        background-image: url(../images/glitch\ 15.png);
+        padding:10px;
+        width:1100px;
+        border-radius: 20px;
+        color:rgb(170, 208, 230);
+        letter-spacing: 6px;
+        font-weight: lighter;
+    }
+    .hw8{
+        background-image: url(../images/screen\ bg\ 17.png);
+        padding:20px;
+        width:1100px;
+        border-radius: 20px;
+        color:rgb(53, 32, 53);
+        letter-spacing: 6px;
+        font-weight: lighter;
+    }
+
+    .beginnings h1{
+        background-image: url(../images/glitch\ 8.PNG);
+        padding:20px;
+            }
+            .opens {
+                background-image: url(../images/screen\ bg\ 15.png);
+                padding: 10px;}
+
+                .intros {
+                    width:1100px;
+                    height:350px;
+                    padding: 10px;
+                    background-image: url(../images/screen\ bg\ 17.png);
+                    text-align:inherit;
+                    border-radius: 10px;
+                }
+.projects h3{
+                    color:#160627;
+                    background-image: url(../images/screen\ bg\ 15.png);
+                    width:330px;
+                    padding:10px;
+                    border-radius: 10px;
+                }
+.hw9{
+                    background-image: url(../images/screen\ bg\ 17.png);
+                    padding:20px;
+                    width:1100px;
+                    border-radius: 20px;
+                    color:rgb(19, 19, 39);
+                    letter-spacing: 6px;
+                    font-weight: lighter;
+                }
+                .hw10{
+                    background-image: url(../images/screen\ bg\ 17.png);
+                    padding:20px;
+                    width:1100px;
+                    border-radius: 20px;
+                    color:rgb(32, 5, 5);
+                    letter-spacing: 6px;
+                    font-weight: lighter;
+                }
+                .hw11{
+                    background-image: url(../images/screen\ bg\ 17.png);
+                    padding:20px;
+                    width:1100px;
+                    border-radius: 20px;
+                    color:rgb(2, 19, 4);
+                    letter-spacing: 6px;
+                    font-weight: lighter;
+                }
+                .hw12{
+                    background-image: url(../images/screen\ bg\ 17.png);
+                    padding:20px;
+                    width:1100px;
+                    border-radius: 20px;
+                    color:rgb(44, 21, 0);
+                    letter-spacing: 6px;
+                    font-weight: lighter;
+                }
+                .hw13{
+                    background-image: url(../images/screen\ bg\ 17.png);
+                    padding:20px;
+                    width:1200px;
+                    border-radius: 20px;
+                    color:rgb(17, 54, 68);
+                    letter-spacing: 6px;
+                    font-weight: lighter;
+                }
